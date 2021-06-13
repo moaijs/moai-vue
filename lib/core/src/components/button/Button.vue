@@ -1,14 +1,18 @@
 <template>
-  <button>Hello {{ world }}</button>
+  <button>{{ label }}</button>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from "vue";
 export default defineComponent({
   name: "Button",
-  setup() {
-    const world = ref<String>("World");
-    return { world };
+  props: {
+    label: String
+  },
+  setup(props) {
+    return {
+      label: props.label
+    }
   }
 });
 </script>

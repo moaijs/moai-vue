@@ -9,7 +9,20 @@ A Vue component library, where buttons look like buttons.
 
 # Install
 
-(WIP)
+The [@moai-vue/core] package is the basis of the Moai Vue kit. It provides all basic
+components, from buttons to dialogs and tables, along with necessary CSS.
+Install it with your package manager:
+
+```
+yarn add @moai-vue/core
+```
+
+-   It has [vue] as peer dependencies, so make sure they are
+    installed.
+-   Moai is written entirely in TypeScript (strict mode!) so all typings are
+    bundled in the packages.
+
+[typing]: https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html
 
 # Contributing
 

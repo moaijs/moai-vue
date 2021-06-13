@@ -1,5 +1,5 @@
 <template>
-  <button :class="$style.moaiButton">{{ label }}</button>
+  <button>{{ label }}</button>
 </template>
 
 <script lang="ts">
@@ -16,12 +16,3 @@ export default defineComponent({
   }
 });
 </script>
-
-<style lang="scss" scoped module>
-.moaiButton {
-  padding: 5rem;
-  background: black;
-  color: white;
-  border: 0;
-}
-</style>

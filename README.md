@@ -18,3 +18,4 @@ A Vue component library, where buttons look like buttons.
 # License
 
 This project is made available under the MIT License
+
